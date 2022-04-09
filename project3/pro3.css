@@ -1,0 +1,865 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  /* font-family: 'Poppins'; */
+}
+
+.container1 {
+  position: absolute;
+  height: 700px;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, black, gray);
+}
+.logo {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 135px;
+  top: 73px;
+  font-size: 40px;
+  background: #dfed05;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, black 40%, yellow);
+}
+#s1 {
+  position: absolute;
+  width: 67px;
+  height: 50px;
+  left: 36px;
+  top: -8px;
+
+  font-family: Saira;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 50px;
+
+  color: #ffffff;
+}
+.l1 {
+  position: absolute;
+  width: 40px;
+  border-radius: 20px;
+  right: 160px;
+  cursor: pointer;
+}
+
+.h1 {
+  position: absolute;
+  color: white;
+  top: 200px;
+  left: 136px;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.3;
+  line-height: 56px;
+}
+#p1 {
+  position: absolute;
+  color: #b5b5b5;
+  top: 430px;
+  left: 136px;
+  height: 56px;
+  line-height: 120%;
+}
+
+#but {
+  position: absolute;
+  background: #dfed05;
+  padding: 16px 38px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-family: poppins;
+  cursor: pointer;
+  top: 490px;
+  left: 136px;
+}
+#but1 {
+  position: absolute;
+  background: rgba(128, 128, 128, 0.096);
+  color: #ffffff;
+  padding: 16px 38px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-weight: 600;
+  font-family: poppins;
+  cursor: pointer;
+  top: 490px;
+  left: 300px;
+}
+.card1 {
+  position: absolute;
+  height: 225px;
+  width: 385px;
+  background: linear-gradient(to bottom, yellow 50%, black 50%);
+  border-radius: 20px;
+  color: black;
+  /* font-size: 32px; */
+  box-shadow: 2px 2px 20px #707070;
+  left: 54%;
+  top: 150px;
+  transform: rotate(27deg);
+  z-index: 1;
+}
+.visa {
+  position: relative;
+  height: 30px;
+  width: 50px;
+  top: 25px;
+  left: 25px;
+}
+
+#wf {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 45px;
+  left: 81%;
+  color: black;
+}
+
+#card-num {
+  position: relative;
+  font-size: 22px;
+  /* margin: -15px 0 0 0; */
+  /* text-align-last:start;  */
+  color: #ffffff;
+  top: 45%;
+  left: 25px;
+}
+.holder-name {
+  position: relative;
+  font-size: 16px;
+  font-family: sans-serif;
+  /* margin: -15px 0 0 0; */
+  /* text-align-last:start;  */
+  color: #ffffff;
+  top: 52%;
+  left: 25px;
+}
+.red {
+  position: relative;
+  height: 42px;
+  width: 42px;
+  background: red;
+  border-radius: 50%;
+  top: 40%;
+  left: 75%;
+}
+.yellow {
+  position: relative;
+  height: 42px;
+  width: 42px;
+  background: orange;
+  border-radius: 50%;
+  top: 21%;
+  left: 82%;
+  opacity: 0.7;
+}
+.card2 {
+  position: absolute;
+  height: 225px;
+  width: 385px;
+  background: linear-gradient(to right, silver 70%, black 30%);
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  box-shadow: 2px 2px 20px #707070;
+  left: 52%;
+  top: 370px;
+  transform: rotate(-8deg);
+}
+#card-num1 {
+  position: relative;
+  font-size: 22px;
+  color: black;
+  top: 45%;
+  left: 25px;
+}
+.holder-name1 {
+  position: relative;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: black;
+  top: 52%;
+  left: 25px;
+}
+.red1 {
+  position: relative;
+  height: 42px;
+  width: 42px;
+  background: red;
+  border-radius: 50%;
+  top: 40%;
+  left: 75%;
+}
+.yellow1 {
+  position: relative;
+  height: 42px;
+  width: 42px;
+  background: orange;
+  border-radius: 50%;
+  top: 21%;
+  left: 82%;
+  opacity: 0.7;
+}
+
+.container2 {
+  position: relative;
+  height: 500px;
+
+  background: #e5e5e5;
+  top: 700px;
+}
+.h2 {
+  position: absolute;
+  color: black;
+  top: 80px;
+  left: 136px;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  /* letter-spacing: 0.3;
+    line-height: 56px; */
+}
+#p21 {
+  position: relative;
+  left: 58%;
+  top: 100px;
+  color: rgb(53, 52, 52);
+}
+.multicard {
+  position: relative;
+  height: 60px;
+  width: 100px;
+  top: 150px;
+  left: 136px;
+  /* opacity: 0.5; */
+}
+.h3 {
+  position: relative;
+  top: 170px;
+  left: 136px;
+  color: rgb(53, 52, 52);
+}
+#multicard-p {
+  position: relative;
+  top: 180px;
+  left: 136px;
+  color: rgb(53, 52, 52);
+}
+.block {
+  position: absolute;
+  height: 215px;
+  width: 320px;
+  background: whitesmoke;
+  top: 180px;
+  left: 470px;
+}
+.contactless {
+  position: absolute;
+  height: 60px;
+  width: 80px;
+  top: 180px;
+  left: 476px;
+  opacity: 0.75;
+}
+.h4 {
+  position: relative;
+  top: 70px;
+  font-size: larger;
+  left: 486px;
+  color: rgb(53, 52, 52);
+}
+.p22 {
+  position: relative;
+  left: 486px;
+  top: 85px;
+  color: rgb(53, 52, 52);
+}
+.mcurrency {
+  position: absolute;
+  height: 60px;
+  width: 80px;
+  top: 180px;
+  left: 836px;
+  opacity: 0.75;
+}
+.h5 {
+  position: relative;
+  top: -25px;
+  font-size: larger;
+  left: 836px;
+  color: rgb(53, 52, 52);
+}
+.p23 {
+  position: relative;
+  left: 836px;
+  top: -10px;
+  color: rgb(53, 52, 52);
+}
+.container3 {
+  position: relative;
+  top: 700px;
+  height: 1000px;
+
+  background: rgb(248, 248, 245);
+}
+.h6 {
+  position: absolute;
+  color: #2d3132;
+  top: 70px;
+  right: 386px;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+}
+#p31 {
+  position: relative;
+  left: 736px;
+  top: 190px;
+  color: rgb(53, 52, 52);
+}
+.b31 {
+  position: relative;
+  background: #e1f000;
+  color: #232f33;
+  padding: 12px 25px;
+  font-weight: bolder;
+  border-radius: 8px;
+  top: 210px;
+  left: 736px;
+  cursor: pointer;
+}
+.b31:hover {
+  background-color: yellowgreen;
+}
+.card31 {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  background: white;
+  border-radius: 12px;
+  left: 136px;
+}
+.h7 {
+  position: relative;
+  font-size: 23px;
+  font-weight: 800;
+  top: 18px;
+  left: 16px;
+}
+.p32 {
+  position: relative;
+  color: #a6adb6;
+  top: 23px;
+  left: 16px;
+  font-weight: 550;
+}
+.img31 {
+  position: relative;
+  top: 30px;
+  left: 16px;
+}
+.p33 {
+  position: relative;
+  top: 40px;
+  left: 16px;
+  font-weight: 600;
+  line-height: 25px;
+}
+.green {
+  position: relative;
+  background: #64d778;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  left: 170px;
+  top: -110px;
+}
+.fa-solid {
+  position: relative;
+  color: #ffffff;
+  left: 15px;
+  top: 14px;
+}
+.t-history {
+  position: relative;
+  height: 30px;
+  width: 230px;
+  background: #64d77826;
+  font-size: larger;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 10px;
+  left: 12px;
+  border-radius: 10px;
+  color: #23ca40;
+}
+.card32 {
+  position: relative;
+  background: #ffffff;
+  height: 180px;
+  width: 190px;
+  border-radius: 10px;
+  left: 410px;
+  top: -270px;
+}
+.green2 {
+  position: absolute;
+  background: #dceb00;
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+  top: 24px;
+  left: 12px;
+}
+.p34 {
+  position: absolute;
+  top: 20px;
+  left: 90px;
+  font-weight: 600;
+  line-height: 33px;
+  font-size: 21px;
+}
+.btn-dt {
+  position: absolute;
+  height: 30px;
+  width: 160px;
+  background: #64d77826;
+  font-size: larger;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 10px;
+  left: 12px;
+  border-radius: 10px;
+  color: #23ca40;
+  top: 120px;
+}
+.card33 {
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  background: #ffffff;
+  border-radius: 12px;
+  left: 325px;
+  top: 280px;
+}
+.sky {
+  position: absolute;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  top: 23px;
+  left: 18px;
+}
+.p35 {
+  position: absolute;
+  font-size: larger;
+  font-weight: bold;
+  color: #828b95;
+  top: 15px;
+  left: 105px;
+}
+.h8 {
+  position: relative;
+  color: #2d3132;
+  left: 136px;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+}
+.p36 {
+  position: relative;
+  top: 20px;
+  left: 136px;
+  color: #828b95;
+}
+.p37 {
+  position: relative;
+  font-size: medium;
+  font-weight: bold;
+  left: 136px;
+  top: 40px;
+  color: #2d3132;
+}
+.p38 {
+  position: relative;
+  font-size: medium;
+  font-weight: bold;
+  left: 326px;
+  top: 20px;
+  color: #2d3132;
+}
+.black-atm {
+  position: absolute;
+  left: 736px;
+  top: 600px;
+}
+
+.black-top {
+  position: absolute;
+  height: 233px;
+  width: 294px;
+  background: white;
+  left: 910px;
+  top: 480px;
+  border-radius: 8px;
+}
+.h9 {
+  position: absolute;
+  font-family: "poppins";
+  font-size: medium;
+  font-weight: bold;
+  top: 20px;
+  left: 15px;
+  color: #2d3132;
+}
+.sm {
+  position: absolute;
+  border-radius: 8px;
+  background: #e1f000;
+  color: #2d3132;
+  display: flex;
+  align-self: center;
+  padding: 15px 15px;
+  top: 60px;
+  left: 15px;
+}
+.p-black {
+  position: relative;
+  font-family: "poppins";
+  top: 58px;
+  left: 85px;
+  line-height: 26px;
+}
+.img-black {
+  position: relative;
+  height: 30px;
+  width: 40px;
+  top: -45px;
+  left: 10px;
+  padding: 10px 12px;
+}
+.num {
+  position: absolute;
+  top: 43px;
+  left: 200px;
+  font-family: "poppins";
+  line-height: 55px;
+}
+.black-btm {
+  position: relative;
+  height: 60px;
+  width: 250px;
+  background: #ffffff;
+  border-radius: 8px;
+  top: 67px;
+}
+.visa1 {
+  position: absolute;
+  top: 10px;
+}
+.num-card {
+  position: relative;
+  top: -20px;
+}
+.balance {
+  position: absolute;
+  top: 10px;
+  left: 160px;
+}
+.container4 {
+  position: relative;
+  top: 660px;
+  height: 500px;
+  background: #e5e5e5;
+}
+.h10 {
+  position: absolute;
+  color: #2d3132;
+  top: 200px;
+  left: 810px;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "poppins";
+}
+#p41 {
+  position: relative;
+  left: 810px;
+  top: 286px;
+  color: #191c1f;
+  font-size: 11px;
+  font-family: "poppins";
+}
+.b41 {
+  position: relative;
+  background: #e1f000;
+  color: #232f33;
+  padding: 12px 25px;
+  font-weight: bolder;
+  border-radius: 8px;
+  top: 300px;
+  left: 810px;
+  cursor: pointer;
+}
+.ellipse {
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background: #ffffff;
+  top: 230px;
+  left: 320px;
+}
+.i-stack {
+  position: relative;
+  top: 35px;
+  left: 10px;
+}
+.ellipse1 {
+  position: absolute;
+  height: 215px;
+  width: 215px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.486);
+  top: 170px;
+  left: 260px;
+}
+.ellipse2 {
+  position: absolute;
+  height: 340px;
+  width: 340px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.377);
+  top: 110px;
+  left: 200px;
+}
+.amazon {
+  height: 80px;
+  width: 80px;
+  background: white;
+  border-radius: 50%;
+}
+.img-amazon {
+  position: relative;
+  top: 32px;
+  left: 5px;
+}
+.zoom {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background: white;
+  border-radius: 50%;
+  top: 60px;
+  left: 170px;
+}
+.img-zoom {
+  position: relative;
+  top: 32px;
+  left: 5px;
+}
+.help {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background: white;
+  border-radius: 50%;
+  top: 170px;
+  left: 50px;
+}
+.img-help {
+  position: relative;
+  top: 32px;
+  left: 5px;
+}
+.google {
+  position: absolute;
+  height: 105px;
+  width: 105px;
+  background: white;
+  border-radius: 50%;
+  top: -50px;
+  left: 120px;
+}
+.img-google {
+  position: relative;
+  width: 75%;
+  top: 40px;
+  left: 12px;
+}
+.instacart {
+  position: absolute;
+  height: 105px;
+  width: 105px;
+  background: white;
+  border-radius: 50%;
+  top: 230px;
+  left: 240px;
+}
+.img-insta {
+  position: relative;
+  width: 85%;
+  top: 40px;
+  left: 6px;
+}
+.spotify {
+  position: absolute;
+  height: 105px;
+  width: 105px;
+  background: white;
+  border-radius: 50%;
+  top: 170px;
+  left: -50px;
+}
+.img-spotify {
+  position: relative;
+  width: 85%;
+  top: 40px;
+  left: 6px;
+}
+
+.container5 {
+  position: relative;
+  top: 660px;
+  height: 250px;
+  background: #121f24;
+}
+.h11 {
+  position: absolute;
+  color: #ffffff;
+  top: 70px;
+  left: 136px;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "poppins";
+}
+.p51 {
+  position: relative;
+  left: 136px;
+  top: 120px;
+  color: #ffffff;
+  font-size: 11px;
+  font-family: "poppins";
+}
+.b51 {
+  position: relative;
+  background: #e1f000;
+  color: #232f33;
+  padding: 12px 25px;
+  font-weight: bolder;
+  border-radius: 8px;
+  top: 70px;
+  left: 810px;
+  cursor: pointer;
+}
+.container6 {
+  position: relative;
+  top: 660px;
+  height: 400px;
+  background-image: linear-gradient(to right bottom, black, gray);
+}
+.logo1 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 135px;
+  top: 160px;
+  font-size: 70px;
+  background: #dfed05;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.87) 40%,
+    yellow 60%
+  );
+}
+#s6 {
+  position: absolute;
+  width: 67px;
+  height: 50px;
+  left: 80px;
+  top: 10px;
+  font-family: "saira";
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.p61 {
+  position: relative;
+  color: #ffffff;
+  top: 290px;
+  left: 166px;
+  font-family: "poppins";
+}
+.h61 {
+  position: relative;
+  color: #ffffff;
+  font-family: "poppins";
+  font-size: 15px;
+  line-height: 36px;
+  font-weight: 600;
+  padding: 75px;
+  left: 38%;
+  top: 30%;
+}
+.ul61 {
+  position: absolute;
+  list-style-type: none;
+  color: #ffffff;
+  font-family: "poppins";
+  font-size: 11px;
+  line-height: 36px;
+  font-weight: 600;
+  left: 44%;
+  top: 45%;
+}
+.ul62 {
+  position: absolute;
+  list-style-type: none;
+  color: #ffffff;
+  font-family: "poppins";
+  font-size: 11px;
+  line-height: 36px;
+  font-weight: 600;
+  left: 60%;
+  top: 45%;
+}
+.ul63 {
+  position: absolute;
+  list-style-type: none;
+  color: #ffffff;
+  font-family: "poppins";
+  font-size: 11px;
+  line-height: 36px;
+  font-weight: 600;
+  left: 77%;
+  top: 45%;
+}
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+@media only screen and (min-width: 769px) and (max-width: 1281px) {
+  /* for 10 inches tablet screens */
+  body::before {
+    content: "tablet to some desktop media query (769 > 1281) fired";
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    background: rgba(255, 255, 0, 0.9); /* Semi-transparent yellow */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+}

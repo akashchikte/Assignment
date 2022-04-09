@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    background: rgb(3, 71, 90);
+    width: 100%;
+    height: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.nav{
+    
+   margin-left: 50px;
+   padding-top: 30px;
+   font-size: 20px;
+  
+}
+.logo{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.about{
+    position: relative;
+    left:210px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+
+    
+}
+#but{
+    position: absolute;
+    cursor: pointer;
+    right: 6%;
+    background: #ebca37;
+    padding: 10px 25px;
+    border-radius: 35px;
+
+}
+.dot{
+    position: relative;
+    top: 35px;
+    margin-left: 50px;
+    color: orange;
+    font-size: 80px;
+}
+.dot1{
+    color: red;
+}
+.h1{
+    position: absolute;
+    top: 190px;
+    margin-left: 50px;
+    color: wheat;
+    font-size: 35px;
+}
+    .underlined {
+        position: relative;
+        margin-right: 16px;
+      }
+      .underlined:after {
+        content: "";
+        position: absolute;
+        bottom: -18px;
+        left: 0;
+        height: 7px;
+        width: 100%;
+        border: solid 3px rgb(255, 187, 0);
+        border-color: rgb(255, 187, 0)transparent transparent transparent;
+        border-radius: 55%;
+      }
+
+  p{
+      position: relative;
+      margin-left: 50px;
+      color: wheat;
+      top: 120px;
+  }
+
+  #btn{
+      position: relative;
+      cursor: pointer;
+      background: rgb(235, 190, 42);
+      color: white;
+      font-size: medium;
+      font-weight: bolder;
+      padding: 12px 35px;
+      border-radius: 30px;
+      left: 50px;
+      top: 140px;
+
+  }
+  #btn1{
+      position: relative;
+      cursor: pointer;
+      background:rgb(3, 71, 90) ;
+      color: white;
+      font-size: medium;
+      font-weight: bolder;
+      padding: 12px 35px;
+      border-radius: 30px;
+      left: 55px;
+      top: 140px;
+
+  }
+.circle{
+    position: absolute;
+    float: right;
+    top: 160px;
+    left: 60%;
+    height: 280px;
+    width: 280px;
+    border: 2px dashed white;
+    border-radius: 50%;
+}
+.img1{
+    position: absolute;
+    right: 27%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 90px;
+
+}
+.img2{
+    position: absolute;
+    right: 8%;
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    top: 180px;
+}
+.img3{
+    position: absolute;
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    top: 320px;
+    right: 27%;
+}
+#b1{
+    position: absolute;
+    cursor: pointer;
+    right: 23%;
+    padding: 18px 40px;
+    top: 235px;
+    border-radius: 23px;
+    font-weight: bolder;
+}
+#b2{
+    position: absolute;
+    cursor: pointer;
+    right: 10%;
+    padding: 18px 40px;
+    top: 455px;
+    border-radius: 23px;
+    font-weight: bolder;
+}
+.container{
+    /* position: relative; */
+    height: 1200px;
+    width: 100%;
+
+}
+
+
+.h2{
+    position: relative;
+    text-align: center;
+    top: 420px;
+    font-size: 33px;
+    font-weight: 650;
+}
+.image{
+    position: relative;
+    top:430px;
+    left: 200px;
+    opacity: 0.7;
+
+}
+.i1{
+    height: 110px;
+    width: 220px;
+    padding: 15px 25px;
+}
+.i2{
+    height: 130px;
+    width: 130px;
+    padding: 15px 25px;
+}
+.i3{
+    height: 100px;
+    width: 250px;
+    padding: 15px 25px;
+}
+.i4{
+    position: relative;
+    right: 4%;
+    
+}
+.dot2{
+    position: relative;
+    top: 470px;
+    margin-left: 50px;
+    color: orange;
+    font-size: 80px;
+}
+.dot3{
+    color: blue;
+}
+.h3{
+    position: relative;
+    text-align: left;
+    left: 50px;
+    top: 450px;
+    font-size: 33px;
+    font-weight: 650;
+}
+#p0{
+    position: relative;
+      margin-left: 50px;
+      color: #42C2FF;
+      top: 465px;
+}
+#btn2{
+    position: relative;
+    cursor: pointer;
+    left: 50px; 
+    padding: 18px 40px;
+    top: 500px;
+    border-radius: 30px;
+    font-weight: bolder;
+
+}
+.im1{
+    position: relative;
+    height: 360px;
+    width: 270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 7%;
+    float: right;
+    right: 45px;
+    top: 195px;
+}
+#b11{
+    position: relative;
+    cursor: pointer;
+    border: 2px solid #ffff;
+    background-color: transparent;
+    height: 50px;
+    width: 160px;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    
+    left: 400px ;
+    top: 510px;
+
+}
+#b12{
+    position: relative;
+    cursor: pointer;
+    border: 2px solid #ffff;
+    background-color: transparent;
+    height: 50px;
+    width: 160px;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    
+    left: 850px ;
+    top: 457px;
+}
+#b13{
+    position: relative;
+    cursor: pointer;
+    border: 2px solid #ffff;
+    background-color: transparent;
+    height: 50px;
+    width: 160px;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    
+    left: 977px ;
+    top: 457px;
+}
+#p11{
+    position: relative;
+    cursor: pointer;
+    color: #1c1f20;
+    font-size: 16px;
+    font-weight: 610;
+    left: 1050px;
+    top: 500px;
+
+}
+.container1{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background: rgb(3, 71, 90);
+
+}
+.h4{
+    position: absolute;
+    top: 160px;
+    text-align: center;
+    margin-left: 450px;
+    color: wheat;
+    font-size: 35px;
+}
+
+.d1{
+    position: relative;
+    height: 120px; 
+    width: 120px;
+    border-radius: 50%; 
+    color: black;
+    background: white; 
+
+    top: 350px;
+    left: 300px;
+}
+.d2{
+    position: relative;
+    height: 120px; 
+    width: 120px;
+    border-radius: 50%; 
+    color: black;
+    background: white; 
+
+    top: 206px;
+    left: 570px;
+}
+ .d3{
+    position: relative;
+    height: 120px; 
+    width: 120px;
+    border-radius: 50%; 
+    color: black;
+    background: white; 
+
+    top: 63px;
+    left: 870px;
+ }
+
+ #id1{
+     position: relative;
+     left:39px;
+     top: 35px;
+ }
+ #id2{
+    position: relative;
+    left:33px;
+    top: 35px;
+}
+#id3{
+    position: relative;
+    left:39px;
+    top: 35px;
+}
+#p1{
+    position: relative;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #ffff;
+
+    top: 370px;
+    left: 310px;
+}
+#p2{
+    position: relative;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #ffff;
+
+    top: 228px;
+    left: 565px;
+}
+#p3{
+    position: relative;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #ffff;
+
+    top: 86px;
+    left: 870px;
+}
+
+.container2{
+    position: relative;
+    height: 450px;
+    width: 100%;
+    background: #ffff;
+}
+.h5{
+    position: absolute;
+    top: 160px;
+    text-align: center;
+    margin-left: 450px;
+    color: darkblue;
+    font-size: 35px;
+}
+#p21{
+    position: relative;
+    margin-left: 465px;
+    color: gray;
+    top: 225px;
+    font-size: 15px;
+
+}
+#b21{
+    position: absolute;
+    cursor: pointer;
+    left: 43%;
+    top: 65%;
+    background: yellow;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 35px;
+}
+.container3{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background: rgb(3, 71, 90);;
+}
+.logo1{
+    position: relative;
+    top: 43px;
+    left: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.social{
+    position: relative;
+    color: whitesmoke;
+    left:83%;
+    font-size: 12px;
+    top: 10px;
+
+}
+#social1{
+    padding: 5px 12px;
+}
+
+.bcircle{
+    position: relative;
+    height:270px;
+    width: 270px;
+    border-radius: 50%;
+    border: 20px solid whitesmoke;
+    left: 460px;
+    top: -165px;
+    opacity: 0.3;
+}
